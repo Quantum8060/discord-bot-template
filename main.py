@@ -3,7 +3,6 @@ from discord import Option
 import discord.ui
 import os
 from discord.ext import commands
-from discord.ext.commands import MissingAnyRole
 from dotenv import load_dotenv
 import asyncio
 
