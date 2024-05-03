@@ -12,7 +12,7 @@ class cogs_template(commands.Cog):
     async def cogs_template(
             self,
             ctx: discord.ApplicationContext):
-        await ctx.respond('hi!')
+        await ctx.respond("")
 
 def setup(bot):
     bot.add_cog(cogs_template(bot))
